@@ -1,6 +1,5 @@
-// toggle class active
-const navbarExtra = document.querySelector( '.navbar-extra');
-// ketike hamburger menu di klik
-document.querySelector('hamburger-menu').onclick = () => {
-    navbarExtra.classList.toggle('active');
+const navbarNav = document.querySelector('.navbar-nav');
+document.querySelector('#hamburger-menu').onclick = () => {
+    navbarNav.classList.toggle('active');
 };
+

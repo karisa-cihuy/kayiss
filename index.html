@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>isa's coffe</title>
+  
 
     
 
@@ -13,6 +14,7 @@
     </style>
 
     <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
    
 
     <!-- My style -->
@@ -22,34 +24,72 @@
 
 <body>
 
-    <script src="https://unpkg.com/feather-icons"></script>
+   
 
    <!-- Navbar start -->
   <nav class="navbar">
-    <a href="#" 
-    class="navbar-logo">COFFSA.</a>
-
+    <a href="#"  class="navbar-logo">COFFSA.</a>
+    
      <div class="navbar-nav">
       <a href="#">Home</a>
-      <a href="#about">Tentang cafe</a>
-      <a href="#menu">Menu</a>
-      <a href="#contact">Kontak</a>
+      <a href="About">About our coffe</a>
+      <a href="Contact">Contact</a>
+      <a href="Hamburger-menu">Menu</a>
      </div>
 
      <div class="navbar-extra">
-      <a href='#' id="search"><i data-feather="search"></i></a>
+      <a href="#" id="search"><i data-feather="search"></i></a>
       <a href='#' id="shopping-cart"><i data-feather="shopping-cart"></i></a>
       <a href='#' id="hamburger-menu"><i data-feather="menu"></i></a>
      </div>
   </nav>
   <!-- Navbar end -->
 
-    <script>
+  <!-- Hero Section Start -->
+   <section class="hero" id="home">
+    <main class="content">
+      <h1>One bite, One sip</h1>
+      <h1><span>you'll be hooked!</span></h1>
+      <p> </p>
+      <a href="#" class="cta">Buy Now!!</a>
+    
+    </main>
+   </section>
+  <!-- Hero Section End -->
+
+  
+  <!-- about section start -->  
+<section id="about" class="about">
+   <h2>About our <span>Coffe</span></h2>
+
+   <div class="row">
+    <div class="about-img">
+      <img src="img/download.jpeg" alt="About our Coffe">
+    </div> 
+    <div class="content">
+      <h3>What is Coffe???</h3>
+      <p>Coffee just a coffee? Nuh uh!</p>
+      <p>Coffee is a Cookies and Coffee!!:p</p>
+      <p>Kopi kami terbuat dari biji kopi pilihan, yang sudah pasti kualitasnya bagus!.</p>
+      <p>Cookies kami juga terbuat dari bahan bahan yang premium loh! seperti butter, brownsugar, susu, dst.</p>
+
+    </div>
+   </div>
+</section>
+  <!-- about section end -->  
+
+  <!-- menu section start -->
+   <section id="menu" class="menu"></section>
+   <h2>Our Menu !</h2>
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quam velit porro eligendi.</p>
+  <!-- menu section end -->
+
+       <script>
         feather.replace();
       </script>
 
-      <!-- my javascript -->
-       <script src="js/script.js"></script>
-    
-</body>
+   <!-- my javascript -->
+       <script src="js/script.js">
+       </script>
+   </body>
 </html>
